@@ -43,7 +43,7 @@ IntimeManager est une application web de gestion de stock conçue spécifiquemen
 
 1. Cloner le repository
 ```bash
-git clone https://github.com/votre-username/intimemanager.git
+git clone https://github.com/ABEGA01/intimemanager.git
 ```
 
 2. Configurer la base de données
@@ -117,7 +117,7 @@ Pour toute assistance :
 
 ## Auteurs
 
-- [Votre Nom](https://github.com/votre-username)
+- [ABEGA01](https://github.com/ABEGA01)
 
 ## Remerciements
 
