@@ -1,0 +1,127 @@
+/* Optimisation des polices système */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* Optimisation pour les écrans haute résolution */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+/* Optimisation pour les petits écrans */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Optimisation pour les grands écrans */
+@media (min-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Optimisation pour l'impression */
+@media print {
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+    }
+}
+
+/* Optimisation des titres */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+/* Optimisation des liens */
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Optimisation des listes */
+ul, ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Optimisation des paragraphes */
+p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+/* Optimisation des tableaux */
+th, td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+/* Optimisation des formulaires */
+label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+/* Optimisation des boutons */
+.btn {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Optimisation des badges */
+.badge {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Optimisation des alertes */
+.alert {
+    font-weight: 500;
+}
+
+/* Optimisation des modales */
+.modal-title {
+    font-weight: 600;
+}
+
+/* Optimisation des cartes */
+.card-title {
+    font-weight: 600;
+}
+
+/* Optimisation des icônes */
+.fas, .far, .fab {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optimisation pour les appareils tactiles */
+@media (hover: none) {
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+/* Optimisation pour les lecteurs d'écran */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+} 

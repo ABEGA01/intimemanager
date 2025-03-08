@@ -1,0 +1,140 @@
+GUIDE D'INSTALLATION SUR MACBOOK AIR
+===================================
+
+1. INSTALLATION DE XAMPP
+-----------------------
+1.1 Téléchargement
+- Ouvrez Safari (le navigateur par défaut de Mac)
+- Allez sur le site officiel de XAMPP : https://www.apachefriends.org/
+- Cliquez sur "Download"
+- Sélectionnez la version pour macOS
+- Le fichier .dmg sera téléchargé
+
+1.2 Installation
+- Double-cliquez sur le fichier .dmg téléchargé
+- Une fenêtre s'ouvre, faites glisser l'icône XAMPP vers le dossier Applications
+- Allez dans le dossier Applications
+- Double-cliquez sur XAMPP
+- Si un message de sécurité apparaît, allez dans :
+  * Préférences Système > Sécurité et confidentialité
+  * Cliquez sur "Autoriser" pour XAMPP
+
+1.3 Démarrage de XAMPP
+- Dans le dossier Applications, ouvrez XAMPP
+- Cliquez sur "Start" pour Apache et MySQL
+- Les voyants devraient passer au vert
+
+2. INSTALLATION DE L'APPLICATION
+------------------------------
+2.1 Copie des fichiers
+- Créez un dossier "nouveau_projet" dans :
+  * /Applications/XAMPP/htdocs/
+- Copiez tous les fichiers de l'application dans ce dossier
+- Assurez-vous que les permissions sont correctes :
+  * Clic droit sur le dossier > Lire les informations
+  * Dans "Partage et permissions", donnez les droits en lecture/écriture
+
+2.2 Configuration de la base de données
+- Ouvrez votre navigateur
+- Allez sur : http://localhost/phpmyadmin
+- Cliquez sur "Nouvelle base de données"
+- Créez une base de données nommée "intimemanager"
+- Importez le fichier database.sql :
+  * Sélectionnez la base de données
+  * Cliquez sur "Importer"
+  * Choisissez le fichier database.sql
+  * Cliquez sur "Exécuter"
+
+2.3 Configuration de la connexion
+- Ouvrez le fichier Connexion.php
+- Vérifiez que les paramètres sont corrects :
+  * host : "localhost"
+  * dbname : "intimemanager"
+  * user : "root"
+  * password : "" (vide par défaut)
+
+3. ACCÈS À L'APPLICATION
+-----------------------
+3.1 Via le navigateur
+- Ouvrez Safari
+- Allez sur : http://localhost/nouveau_projet
+- Connectez-vous avec :
+  * Utilisateur : admin
+  * Mot de passe : admin
+
+3.2 Création d'un raccourci
+- Dans Safari, allez sur l'application
+- Cliquez sur le bouton "Partager"
+- Sélectionnez "Ajouter à l'écran d'accueil"
+- Donnez un nom à l'application
+- Cliquez sur "Ajouter"
+
+4. DÉMARRAGE AUTOMATIQUE
+----------------------
+4.1 Configuration de XAMPP
+- Ouvrez XAMPP
+- Cliquez sur "Config"
+- Sélectionnez "Autostart"
+- Cochez Apache et MySQL
+
+4.2 Création d'un raccourci dans le Dock
+- Allez dans le dossier Applications
+- Faites glisser l'icône XAMPP vers le Dock
+- Faites glisser l'icône Safari vers le Dock
+
+5. MAINTENANCE
+------------
+5.1 Sauvegarde de la base de données
+- Ouvrez phpMyAdmin
+- Sélectionnez la base de données
+- Cliquez sur "Exporter"
+- Choisissez "Méthode rapide"
+- Cliquez sur "Exécuter"
+
+5.2 Redémarrage de XAMPP
+- Cliquez sur "Stop" pour Apache et MySQL
+- Attendez quelques secondes
+- Cliquez sur "Start"
+
+6. DÉPANNAGE
+-----------
+6.1 Problèmes courants
+- Si XAMPP ne démarre pas :
+  * Vérifiez qu'aucun autre serveur web n'est en cours
+  * Redémarrez votre Mac
+  * Réinstallez XAMPP si nécessaire
+
+- Si la base de données n'est pas accessible :
+  * Vérifiez que MySQL est démarré
+  * Vérifiez les paramètres de connexion
+  * Vérifiez les permissions des fichiers
+
+6.2 Logs d'erreur
+- Apache : /Applications/XAMPP/logs/apache_error.log
+- MySQL : /Applications/XAMPP/logs/mysql_error.log
+- PHP : /Applications/XAMPP/logs/php_error.log
+
+7. SÉCURITÉ
+----------
+7.1 Configuration du pare-feu
+- Allez dans Préférences Système > Sécurité et confidentialité > Pare-feu
+- Cliquez sur le cadenas pour déverrouiller
+- Ajoutez XAMPP aux applications autorisées
+
+7.2 Mise à jour de XAMPP
+- Vérifiez régulièrement les mises à jour sur le site officiel
+- Sauvegardez la base de données avant toute mise à jour
+
+8. CONSEILS PRATIQUES
+-------------------
+- Gardez XAMPP à jour
+- Faites des sauvegardes régulières
+- Vérifiez les logs en cas de problème
+- Utilisez le raccourci dans le Dock pour un accès rapide
+
+9. CONTACT ET SUPPORT
+-------------------
+En cas de problème :
+- Consultez la documentation en ligne de XAMPP
+- Vérifiez les forums de support
+- Contactez l'administrateur système 

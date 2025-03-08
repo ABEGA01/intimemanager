@@ -1,0 +1,54 @@
+# Configuration
+config.php
+.env
+
+# Dépendances et modules
+/vendor/
+/node_modules/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de log
+*.log
+/logs/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Fichiers de configuration IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers d'upload
+/uploads/
+/images/uploads/
+
+# Fichiers de cache
+/cache/
+*.cache
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+backup.*
+
+# Fichiers de base de données
+*.sql
+*.sqlite
+
+# Fichiers de configuration personnels
+custom.css
+custom.js
+
+# Certificats SSL
+*.pem
+*.key
+*.crt 

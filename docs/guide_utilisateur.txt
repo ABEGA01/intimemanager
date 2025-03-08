@@ -1,0 +1,126 @@
+GUIDE D'UTILISATION DE L'APPLICATION INTIMEMANAGER
+===============================================
+
+1. INTRODUCTION
+--------------
+IntimeManager est une application de gestion de stock et de ventes. Elle permet de :
+- Gérer l'inventaire des articles
+- Effectuer des ventes
+- Suivre les statistiques
+- Générer des rapports
+
+2. CONNEXION
+------------
+- Accédez à l'application via votre navigateur
+- Entrez votre nom d'utilisateur et mot de passe
+- Cliquez sur "Connexion"
+
+3. GESTION DES ARTICLES
+----------------------
+3.1 Ajouter un article
+- Cliquez sur "Articles" dans le menu
+- Cliquez sur "Nouvel article"
+- Remplissez les informations :
+  * Nom de l'article
+  * Référence
+  * Prix d'achat
+  * Prix de vente
+  * Quantité en stock
+  * Seuil d'alerte
+  * Catégorie
+- Cliquez sur "Enregistrer"
+
+3.2 Modifier un article
+- Dans la liste des articles, cliquez sur l'icône de modification
+- Modifiez les informations souhaitées
+- Cliquez sur "Enregistrer"
+
+3.3 Supprimer un article
+- Dans la liste des articles, cliquez sur l'icône de suppression
+- Confirmez la suppression
+
+4. GESTION DES VENTES
+--------------------
+4.1 Effectuer une vente
+- Cliquez sur "Nouvelle vente"
+- Recherchez les articles par nom ou référence
+- Ajoutez les articles au panier
+- Ajustez les quantités si nécessaire
+- Choisissez le mode de paiement
+- Cliquez sur "Valider la vente"
+
+4.2 Consulter l'historique des ventes
+- Cliquez sur "Ventes" dans le menu
+- La liste des ventes s'affiche avec :
+  * Numéro de vente
+  * Date
+  * Montant
+  * Vendeur
+- Cliquez sur "Détails" pour voir le contenu d'une vente
+
+4.3 Imprimer une facture
+- Dans la liste des ventes, cliquez sur l'icône d'impression
+- La facture s'affiche dans un nouvel onglet
+- Utilisez la fonction d'impression de votre navigateur
+
+5. RAPPORTS ET STATISTIQUES
+--------------------------
+5.1 Statistiques globales
+- Accédez à la page d'accueil pour voir :
+  * Nombre total d'articles
+  * Nombre de ventes
+  * Chiffre d'affaires
+  * Articles en stock faible
+
+5.2 Rapports par produit
+- Cliquez sur "Rapports" dans le menu
+- Sélectionnez un produit dans la liste déroulante
+- Consultez :
+  * Nombre de ventes
+  * Quantité vendue
+  * Chiffre d'affaires
+  * Bénéfice
+- Imprimez le rapport si nécessaire
+
+5.3 Rapports par période
+- Dans la section "Analyse par période"
+- Sélectionnez une date de début et de fin
+- Consultez :
+  * Nombre de ventes
+  * Chiffre d'affaires
+  * Bénéfice total
+  * Top des produits vendus
+- Imprimez le rapport si nécessaire
+
+6. GESTION DES FOURNISSEURS
+--------------------------
+6.1 Ajouter un fournisseur
+- Cliquez sur "Fournisseurs" dans le menu
+- Cliquez sur "Nouveau fournisseur"
+- Remplissez les informations
+- Cliquez sur "Enregistrer"
+
+6.2 Gérer les fournisseurs
+- Consultez la liste des fournisseurs
+- Modifiez ou supprimez selon besoin
+
+7. CONSEILS PRATIQUES
+--------------------
+- Vérifiez régulièrement les articles en stock faible
+- Utilisez les rapports pour analyser les tendances
+- Imprimez les factures immédiatement après la vente
+- Faites des sauvegardes régulières des données
+
+8. CONTACT ET SUPPORT
+--------------------
+En cas de problème ou de question :
+- Contactez l'administrateur système
+- Consultez la documentation technique
+- Vérifiez les messages d'erreur affichés
+
+9. SÉCURITÉ
+----------
+- Ne partagez pas vos identifiants
+- Déconnectez-vous après utilisation
+- Changez régulièrement votre mot de passe
+- Signalez toute activité suspecte 

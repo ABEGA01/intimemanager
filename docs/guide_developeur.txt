@@ -1,0 +1,147 @@
+GUIDE DU DÉVELOPPEUR - INTIMEMANAGER
+===================================
+
+1. STRUCTURE DU PROJET
+---------------------
+/
+├── docs/               # Documentation
+├── images/            # Images et logos
+├── tcpdf/             # Bibliothèque TCPDF
+├── Connexion.php      # Configuration de la base de données
+├── index.php          # Page d'accueil
+├── login.php          # Page de connexion
+├── ListeArticles.php  # Gestion des articles
+├── ListeVentes.php    # Gestion des ventes
+├── ListeFournisseurs.php # Gestion des fournisseurs
+├── Rapports.php       # Rapports et statistiques
+└── Imprimer*.php      # Fichiers d'impression
+
+2. CONFIGURATION DE L'ENVIRONNEMENT
+----------------------------------
+2.1 Prérequis
+- PHP 7.4 ou supérieur
+- MySQL 5.7 ou supérieur
+- Serveur web (Apache/Nginx)
+- Extensions PHP requises :
+  * PDO
+  * PDO_MySQL
+  * GD
+  * mbstring
+
+2.2 Installation
+1. Cloner le dépôt
+2. Configurer la base de données dans Connexion.php
+3. Créer la base de données et importer le schéma
+4. Configurer les permissions des dossiers
+
+3. BASE DE DONNÉES
+------------------
+3.1 Structure
+- Tables principales :
+  * article
+  * vente
+  * detail_vente
+  * utilisateur
+  * fournisseur
+  * categorie
+
+3.2 Relations
+- vente -> utilisateur (IDUTILISATEUR)
+- detail_vente -> vente (IDVENTE)
+- detail_vente -> article (IDARTICLE)
+- article -> categorie (IDCATEGORIE)
+- article -> fournisseur (IDFOURNISSEUR)
+
+4. FONCTIONNALITÉS PRINCIPALES
+-----------------------------
+4.1 Gestion des articles
+- CRUD complet
+- Gestion des stocks
+- Alertes de stock faible
+- Catégorisation
+
+4.2 Gestion des ventes
+- Processus de vente
+- Calcul des totaux
+- Génération de factures
+- Historique des ventes
+
+4.3 Rapports
+- Statistiques globales
+- Rapports par produit
+- Rapports par période
+- Graphiques et visualisations
+
+5. SÉCURITÉ
+----------
+5.1 Authentification
+- Session PHP
+- Protection contre les injections SQL
+- Validation des entrées
+
+5.2 Bonnes pratiques
+- Utilisation de PDO avec requêtes préparées
+- Échappement des données affichées
+- Gestion des erreurs
+- Logs d'activité
+
+6. MAINTENANCE
+-------------
+6.1 Sauvegarde
+- Script de sauvegarde de la base de données
+- Sauvegarde des fichiers de configuration
+- Rotation des logs
+
+6.2 Mises à jour
+- Procédure de mise à jour
+- Gestion des versions
+- Tests de compatibilité
+
+7. DÉVELOPPEMENT
+---------------
+7.1 Standards de code
+- PSR-4 pour l'autoloading
+- PSR-12 pour le style de code
+- Documentation PHPDoc
+- Tests unitaires
+
+7.2 Ajout de fonctionnalités
+- Création de nouvelles tables
+- Modification des formulaires
+- Ajout de rapports
+- Intégration de nouvelles bibliothèques
+
+8. DÉBOGAGE
+----------
+8.1 Outils
+- Xdebug
+- Logs PHP
+- Logs MySQL
+- Outils de profilage
+
+8.2 Procédures
+- Identification des erreurs
+- Correction des bugs
+- Optimisation des performances
+- Tests de régression
+
+9. DÉPLOIEMENT
+-------------
+9.1 Préparation
+- Vérification des dépendances
+- Configuration du serveur
+- Sécurité
+- Performance
+
+9.2 Procédure
+- Sauvegarde des données
+- Mise à jour des fichiers
+- Vérification des permissions
+- Tests post-déploiement
+
+10. CONTACT ET SUPPORT
+--------------------
+- Documentation technique
+- Base de connaissances
+- Support utilisateur
+- Maintenance 
